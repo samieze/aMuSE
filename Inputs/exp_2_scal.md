@@ -20,6 +20,11 @@ Eventrates = [[2, 71, 1, 168, 1717781, 24, 1, 2574, 4, 4, 39, 1, 6, 59, 9, 154, 
 - AND(S, SEQ(H, AND(C, M, F)))
 - SEQ(Q, AND(E, SEQ(L1, L2, I, B)))
 - AND(P, SEQ(N, AND(I1, S, I2, I3)))
+- SEQ(P, N, I, S, B)
+- SEQ(F, A, AND(D1, D2, P1, SEQ(D3,P2)))
+- AND(N1, L1, SEQ(C, L2, I), N2, N3)
+- AND(A, B, K1, K2, SEQ(B, Q, R1, R2))
+- AND(C1, M1, F1, C2, N, M2, F2)
 
 ### Selectivity
 
