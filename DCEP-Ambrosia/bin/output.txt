@@ -1,0 +1,484 @@
+Reading input from ../inputexamples/queries_google_cluster/AND3_MS.txt
+
+***** Node 0: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 1: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 2: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 3: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 4: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 5: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 6: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 7: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 8: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19
+
+***** Node 9: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19
+
+***** Node 10: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19
+
+***** Node 11: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19
+
+***** Node 12: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19
+
+***** Node 13: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19
+
+***** Node 14: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19
+
+***** Node 15: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19
+
+***** Node 16: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19
+
+***** Node 17: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19
+
+***** Node 18: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19
+
+***** Node 19: *****
+Source of events: A B C D E F G H I AND(F,H) AND(D,H) AND(E,D,F,H)
+Processing Queries:
+- [ F H ] => AND(F,H)
+- [ D H ] => AND(D,H)
+- [ AND(F,H) AND(D,H) E ] => AND(E,D,F,H)
+Forwarding Local Events to:
+- H => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+- AND(F,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+- AND(D,H) => 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+
+[0] DCEPNode Constructor called.
+[1] DCEPNode Constructor called.
+[2] DCEPNode Constructor called.
+[3] DCEPNode Constructor called.
+[4] DCEPNode Constructor called.
+[5] DCEPNode Constructor called.
+[6] DCEPNode Constructor called.
+[7] DCEPNode Constructor called.
+[8] DCEPNode Constructor called.
+[9] DCEPNode Constructor called.
+[10] DCEPNode Constructor called.
+[11] DCEPNode Constructor called.
+[12] DCEPNode Constructor called.
+[13] DCEPNode Constructor called.
+[14] DCEPNode Constructor called.
+[15] DCEPNode Constructor called.
+[16] DCEPNode Constructor called.
+[17] DCEPNode Constructor called.
+[18] DCEPNode Constructor called.
+[19] DCEPNode Constructor called.
+[0] [DirectorNodeService] Waiting for node(s) 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 to signal they are ready to start.
+[0] [DirectorNodeService] received ready to start message from 0
+[0] [DirectorNodeService] received ready to start message from 0 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 4
+[0] [DirectorNodeService] received ready to start message from 4 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 5
+[0] [DirectorNodeService] received ready to start message from 5 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 6
+[0] [DirectorNodeService] received ready to start message from 6 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 3
+[0] [DirectorNodeService] received ready to start message from 3 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 9
+[0] [DirectorNodeService] received ready to start message from 9 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 1
+[0] [DirectorNodeService] received ready to start message from 1 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 2
+[0] [DirectorNodeService] received ready to start message from 2 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 7
+[0] [DirectorNodeService] received ready to start message from 7 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 8
+[0] [DirectorNodeService] received ready to start message from 8 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 10
+[0] [DirectorNodeService] received ready to start message from 10 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 11
+[0] [DirectorNodeService] received ready to start message from 11 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 12
+[0] [DirectorNodeService] received ready to start message from 12 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 13
+[0] [DirectorNodeService] received ready to start message from 13 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 14
+[0] [DirectorNodeService] received ready to start message from 14 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 15
+[0] [DirectorNodeService] received ready to start message from 15 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 16
+[0] [DirectorNodeService] received ready to start message from 16 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 17
+[0] [DirectorNodeService] received ready to start message from 17 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 18
+[0] [DirectorNodeService] received ready to start message from 18 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService] received ready to start message from 19
+[0] [DirectorNodeService] received ready to start message from 19 but ignoring it due to being in systemState=.WaitForStart
+[0] [DirectorNodeService]  All nodes ready. Transitioning into run phase.
+[3] updated execution state from WaitForStart to DoStartInputGeneration
+[6] updated execution state from WaitForStart to DoStartInputGeneration
+[18] updated execution state from WaitForStart to DoStartInputGeneration
+[5] updated execution state from WaitForStart to DoStartInputGeneration
+[8] updated execution state from WaitForStart to DoStartInputGeneration
+[13] updated execution state from WaitForStart to DoStartInputGeneration
+[11] updated execution state from WaitForStart to DoStartInputGeneration
+[2] updated execution state from WaitForStart to DoStartInputGeneration
+[1] updated execution state from WaitForStart to DoStartInputGeneration
+[10] updated execution state from WaitForStart to DoStartInputGeneration
+[17] updated execution state from WaitForStart to DoStartInputGeneration
+[15] updated execution state from WaitForStart to DoStartInputGeneration
+[19] updated execution state from WaitForStart to DoStartInputGeneration
+[9] updated execution state from WaitForStart to DoStartInputGeneration
+[7] updated execution state from WaitForStart to DoStartInputGeneration
+[4] updated execution state from WaitForStart to DoStartInputGeneration
+[14] updated execution state from WaitForStart to DoStartInputGeneration
+[16] updated execution state from WaitForStart to DoStartInputGeneration
+[0] updated execution state from WaitForStart to DoStartInputGeneration
+[3] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_3.txt
+[10] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_10.txt
+[15] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_15.txt
+[12] updated execution state from WaitForStart to DoStartInputGeneration
+[6] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_6.txt
+[7] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_7.txt
+[2] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_2.txt
+[1] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_1.txt
+[4] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_4.txt
+[5] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_5.txt
+[9] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_9.txt
+[19] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_19.txt
+[11] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_11.txt
+[8] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_8.txt
+[13] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_13.txt
+[14] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_14.txt
+[17] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_17.txt
+[18] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_18.txt
+[0] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_0.txt
+[16] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_16.txt
+[12] [DatasetPrimitiveEventInputService] Starting to read dataset file /home/samira/Diss/aMuSE/DCEP-Ambrosia/inputexamples/queries_google_cluster/hm_input_12.txt
+[10] Generated primitive event {E, 2020-10-06 14:22:22.420, 3ffd135b}.
+[16] Generated primitive event {E, 2020-10-06 14:22:22.438, 4b2fdb21}.
+[7] Generated primitive event {E, 2020-10-06 14:22:22.425, 2e01c48f}.
+[7] Generated primitive event {D, 2020-10-06 14:22:22.555, c616147a}.
+[7] Generated primitive event {E, 2020-10-06 14:22:22.555, 4538f3fd}.
+[2] Generated primitive event {E, 2020-10-06 14:22:22.425, de999731}.
+[2] Generated primitive event {E, 2020-10-06 14:22:22.556, c103c96e}.
+[4] Generated primitive event {E, 2020-10-06 14:22:22.425, c69bf3c5}.
+[0] Generated primitive event {E, 2020-10-06 14:22:22.432, 5c17eb75}.
+[3] Generated primitive event {B, 2020-10-06 14:22:22.436, 52d2ec49}.
+[3] Generated primitive event {E, 2020-10-06 14:22:22.557, faaab763}.
+[19] Generated primitive event {E, 2020-10-06 14:22:22.436, 9bda4080}.
+[19] Generated primitive event {B, 2020-10-06 14:22:22.557, 0197adc5}.
+[8] Generated primitive event {E, 2020-10-06 14:22:22.436, 6cc3863d}.
+[8] Generated primitive event {E, 2020-10-06 14:22:22.560, 5d970e5d}.
+[13] Generated primitive event {E, 2020-10-06 14:22:22.436, e5fc7baf}.
+[13] Generated primitive event {E, 2020-10-06 14:22:22.560, 501b8479}.
+[14] Generated primitive event {E, 2020-10-06 14:22:22.436, 1dc13c77}.
+[10] Generated primitive event {E, 2020-10-06 14:22:22.539, 8ab726aa}.
+[15] Generated primitive event {E, 2020-10-06 14:22:22.422, 3714e3ad}.
+[4] Generated primitive event {E, 2020-10-06 14:22:22.738, 458fcfa2}.
+[2] Generated primitive event {B, 2020-10-06 14:22:22.738, 0b71fdfc}.
+[2] Generated primitive event {E, 2020-10-06 14:22:22.754, 79433c29}.
+[0] Generated primitive event {E, 2020-10-06 14:22:22.766, 329f5832}.
+[0] Generated primitive event {E, 2020-10-06 14:22:22.767, b88228a7}.
+[19] Generated primitive event {E, 2020-10-06 14:22:22.775, 9020270c}.
+[5] Generated primitive event {E, 2020-10-06 14:22:22.737, 238feedc}.
+[17] Generated primitive event {E, 2020-10-06 14:22:22.806, 069dc65c}.
+[2] Generated primitive event {E, 2020-10-06 14:22:23.074, bf524da8}.
+[2] Generated primitive event {E, 2020-10-06 14:22:23.078, a6cc3ada}.
+[1] Generated primitive event {E, 2020-10-06 14:22:23.071, 8a8d2400}.
+[17] Generated primitive event {E, 2020-10-06 14:22:23.079, b7aaf0d6}.
+[4] Generated primitive event {E, 2020-10-06 14:22:23.079, 33443c2d}.
+[4] Generated primitive event {E, 2020-10-06 14:22:23.154, e639bd77}.
+[6] Generated primitive event {E, 2020-10-06 14:22:23.081, 58d03663}.
+[13] Generated primitive event {E, 2020-10-06 14:22:23.087, 26eeca9b}.
+[14] Generated primitive event {E, 2020-10-06 14:22:23.094, c727cc08}.
+[15] Generated primitive event {E, 2020-10-06 14:22:23.120, 53c9e25a}.
+[16] Generated primitive event {B, 2020-10-06 14:22:23.143, 0d520400}.
+[6] Generated primitive event {E, 2020-10-06 14:22:23.156, 483d7935}.
+[3] Generated primitive event {E, 2020-10-06 14:22:23.234, 679888d2}.
+[3] Generated primitive event {E, 2020-10-06 14:22:23.238, 01e8d820}.
+[6] Generated primitive event {E, 2020-10-06 14:22:23.406, 37273906}.
+[4] Generated primitive event {E, 2020-10-06 14:22:23.414, 74b234c7}.
+[9] Generated primitive event {E, 2020-10-06 14:22:23.415, 59d9ec9c}.
+[9] Generated primitive event {E, 2020-10-06 14:22:23.419, 944439d6}.
+[13] Generated primitive event {E, 2020-10-06 14:22:23.426, 279267e4}.
+[11] Generated primitive event {E, 2020-10-06 14:22:23.430, bd084f70}.
+[7] Generated primitive event {E, 2020-10-06 14:22:23.434, 309c908c}.
+[7] Generated primitive event {E, 2020-10-06 14:22:23.434, d2b6542e}.
+[16] Generated primitive event {E, 2020-10-06 14:22:23.442, 2b12c70f}.
+[3] Generated primitive event {D, 2020-10-06 14:22:23.568, 39d11e49}.
+[3] Generated primitive event {E, 2020-10-06 14:22:23.586, 730ada4f}.
+[6] Generated primitive event {E, 2020-10-06 14:22:23.743, c11a8ab0}.
+[17] Generated primitive event {E, 2020-10-06 14:22:23.744, 2c17a930}.
+[10] Generated primitive event {E, 2020-10-06 14:22:23.757, 40eec43c}.
+[5] Generated primitive event {E, 2020-10-06 14:22:23.757, 80a0bacf}.
+[5] Generated primitive event {E, 2020-10-06 14:22:23.777, e6578794}.
+[5] Generated primitive event {E, 2020-10-06 14:22:23.778, f8b5cc4b}.
+[2] Generated primitive event {E, 2020-10-06 14:22:23.758, cd96e878}.
+[2] Generated primitive event {E, 2020-10-06 14:22:23.779, fffeb238}.
+[9] Generated primitive event {B, 2020-10-06 14:22:23.768, 50d36aa3}.
+[12] Generated primitive event {E, 2020-10-06 14:22:23.789, 5fc7858b}.
+[6] Generated primitive event {B, 2020-10-06 14:22:24.085, 2afd8d28}.
+[14] Generated primitive event {B, 2020-10-06 14:22:24.086, acfe9c18}.
+[8] Generated primitive event {B, 2020-10-06 14:22:24.092, 66187ca6}.
+[8] Generated primitive event {B, 2020-10-06 14:22:24.092, b9ed107b}.
+[17] Generated primitive event {C, 2020-10-06 14:22:24.110, b6b86801}.
+[11] Generated primitive event {B, 2020-10-06 14:22:24.132, 125635c8}.
+[1] Generated primitive event {E, 2020-10-06 14:22:24.408, 136af6ee}.
+[4] Generated primitive event {E, 2020-10-06 14:22:24.418, 51a64c7d}.
+[19] Generated primitive event {E, 2020-10-06 14:22:24.435, 2351dc1f}.
+[11] Generated primitive event {E, 2020-10-06 14:22:24.745, 8001d8a0}.
+[6] Generated primitive event {B, 2020-10-06 14:22:24.758, 999006c6}.
+[9] Generated primitive event {B, 2020-10-06 14:22:24.772, 98532bae}.
+[8] Generated primitive event {E, 2020-10-06 14:22:24.766, 4029df79}.
+[18] Generated primitive event {B, 2020-10-06 14:22:24.766, d1928f99}.
+[17] Generated primitive event {E, 2020-10-06 14:22:24.771, 53afd419}.
+[3] Generated primitive event {E, 2020-10-06 14:22:24.889, e7d3e260}.
+[4] Generated primitive event {E, 2020-10-06 14:22:25.070, 93d9badf}.
+[9] Generated primitive event {E, 2020-10-06 14:22:25.076, 8c29ae74}.
+[9] Generated primitive event {E, 2020-10-06 14:22:25.080, 3595c4f5}.
+[9] Generated primitive event {E, 2020-10-06 14:22:25.080, 07ee7524}.
+[17] Generated primitive event {E, 2020-10-06 14:22:25.082, dd979913}.
+[7] Generated primitive event {E, 2020-10-06 14:22:25.084, 85412042}.
+[7] Generated primitive event {E, 2020-10-06 14:22:25.084, c5348863}.
+[2] Generated primitive event {E, 2020-10-06 14:22:25.077, 0c62e3d4}.
+[11] Generated primitive event {E, 2020-10-06 14:22:25.085, 17b26abd}.
+[8] Generated primitive event {E, 2020-10-06 14:22:25.086, abfe8602}.
+[13] Generated primitive event {C, 2020-10-06 14:22:25.087, 048e6689}.
+[13] Generated primitive event {E, 2020-10-06 14:22:25.087, f137122a}.
+[19] Generated primitive event {B, 2020-10-06 14:22:25.087, c751013d}.
+[19] Generated primitive event {E, 2020-10-06 14:22:25.087, da0fc2c3}.
+[5] Generated primitive event {E, 2020-10-06 14:22:25.102, 3de92811}.
+[5] Generated primitive event {E, 2020-10-06 14:22:25.102, 013438da}.
+[0] Generated primitive event {E, 2020-10-06 14:22:25.108, e74fcbd7}.
+[0] Generated primitive event {E, 2020-10-06 14:22:25.108, e21ff084}.
+[16] Generated primitive event {E, 2020-10-06 14:22:25.158, 048f1445}.
+[15] Generated primitive event {E, 2020-10-06 14:22:25.173, 1f5bbee8}.
+[18] Generated primitive event {E, 2020-10-06 14:22:25.412, b3b3746d}.
+[5] Generated primitive event {B, 2020-10-06 14:22:25.424, 2e83a82c}.
+[1] Generated primitive event {E, 2020-10-06 14:22:25.437, 50fa734c}.
+[6] Generated primitive event {E, 2020-10-06 14:22:25.450, 30356903}.
+[10] Generated primitive event {E, 2020-10-06 14:22:25.455, ac034964}.
+[8] Generated primitive event {E, 2020-10-06 14:22:25.472, 0ed9bce7}.
+[13] Generated primitive event {E, 2020-10-06 14:22:25.505, 2fe6363b}.
+[1] Generated primitive event {E, 2020-10-06 14:22:25.740, 91836359}.
+[13] Generated primitive event {E, 2020-10-06 14:22:25.751, f144f2e1}.
+[13] Generated primitive event {E, 2020-10-06 14:22:25.752, 459870f2}.
+[0] Generated primitive event {E, 2020-10-06 14:22:25.767, 1726837c}.
+[2] Generated primitive event {B, 2020-10-06 14:22:25.773, 32eff880}.
+[2] Generated primitive event {E, 2020-10-06 14:22:25.773, 6ee17528}.
+[16] Generated primitive event {B, 2020-10-06 14:22:25.776, 46d58414}.
+[14] Generated primitive event {E, 2020-10-06 14:22:25.802, 687ce2ae}.
+[9] Generated primitive event {E, 2020-10-06 14:22:26.086, e3e4b5ee}.
+[8] Generated primitive event {B, 2020-10-06 14:22:26.132, a9b54c29}.
+[0] Generated primitive event {E, 2020-10-06 14:22:26.146, 1c9e0bdc}.
+[10] Generated primitive event {E, 2020-10-06 14:22:26.409, 3f467d8d}.
+[11] Generated primitive event {B, 2020-10-06 14:22:26.417, 285aece4}.
+[2] Generated primitive event {B, 2020-10-06 14:22:26.409, 3376e1c8}.
+[2] Generated primitive event {E, 2020-10-06 14:22:26.417, 4835ae58}.
+[2] Generated primitive event {E, 2020-10-06 14:22:26.417, d6461c4f}.
+[13] Generated primitive event {B, 2020-10-06 14:22:26.441, 2aa2a407}.
+[17] Generated primitive event {E, 2020-10-06 14:22:26.448, 38bd20b0}.
+[1] Generated primitive event {E, 2020-10-06 14:22:26.449, 69a9006d}.
+[0] Generated primitive event {E, 2020-10-06 14:22:26.456, c6035cbe}.
+[19] Generated primitive event {E, 2020-10-06 14:22:26.478, 56b7ffc3}.
+[15] Generated primitive event {E, 2020-10-06 14:22:26.741, a2a7babf}.
+[11] Generated primitive event {B, 2020-10-06 14:22:26.746, c9c80949}.
+[8] Generated primitive event {D, 2020-10-06 14:22:26.751, 19f3b82b}.
+[13] Generated primitive event {C, 2020-10-06 14:22:26.763, 6163cee2}.
+[13] Generated primitive event {C, 2020-10-06 14:22:26.763, 7b99c962}.
+[13] Generated primitive event {B, 2020-10-06 14:22:26.763, f13da27a}.
+[14] Generated primitive event {E, 2020-10-06 14:22:26.785, e705e0c1}.
+[14] Generated primitive event {E, 2020-10-06 14:22:26.785, 42482925}.
+[5] Generated primitive event {C, 2020-10-06 14:22:26.789, 65365521}.
+[12] Generated primitive event {E, 2020-10-06 14:22:26.810, 4b188474}.
+[0] Generated primitive event {E, 2020-10-06 14:22:26.822, 7b743fab}.
+[9] Generated primitive event {B, 2020-10-06 14:22:27.101, 03b85d5d}.
+[1] Generated primitive event {B, 2020-10-06 14:22:27.104, f4cfdc10}.
+[16] Generated primitive event {E, 2020-10-06 14:22:27.104, 234b6494}.
+[4] Generated primitive event {B, 2020-10-06 14:22:27.107, 229a7358}.
+[0] Generated primitive event {E, 2020-10-06 14:22:27.121, 28b207a2}.
+[3] Generated primitive event {B, 2020-10-06 14:22:27.238, 90844a88}.
+[1] Generated primitive event {B, 2020-10-06 14:22:27.404, ef7c9643}.
+[5] Generated primitive event {E, 2020-10-06 14:22:27.416, ae73c9d2}.
+[8] Generated primitive event {B, 2020-10-06 14:22:27.418, d122cf5a}.
+[8] Generated primitive event {B, 2020-10-06 14:22:27.418, 05f6a756}.
+[8] Generated primitive event {B, 2020-10-06 14:22:27.418, 93e97363}.
+[17] Generated primitive event {E, 2020-10-06 14:22:27.420, 2b3ced25}.
+[11] Generated primitive event {B, 2020-10-06 14:22:27.426, b2eb29b3}.
+[10] Generated primitive event {B, 2020-10-06 14:22:27.437, 1c73de55}.
+[13] Generated primitive event {B, 2020-10-06 14:22:27.438, d7eba19f}.
+[16] Generated primitive event {B, 2020-10-06 14:22:27.466, 001b2ed6}.
+[4] Generated primitive event {E, 2020-10-06 14:22:27.742, c063ebc2}.
+[9] Generated primitive event {E, 2020-10-06 14:22:27.759, 8b25173a}.
+[16] Generated primitive event {E, 2020-10-06 14:22:27.799, 5af7edd4}.
+[7] Generated primitive event {E, 2020-10-06 14:22:28.079, 7be7210d}.
+[16] Generated primitive event {B, 2020-10-06 14:22:28.123, 1f5aee46}.
+[8] Generated primitive event {E, 2020-10-06 14:22:28.122, e1a5dfbc}.
