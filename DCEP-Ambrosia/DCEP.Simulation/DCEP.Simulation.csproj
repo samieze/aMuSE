@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net46;netcoreapp3.1</TargetFrameworks>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.7</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DCEP.Node\DCEP.Node.csproj" />
+    <ProjectReference Include="..\GeneratedSourceFiles\DCEP.AmbrosiaNodeAPIGenerated\latest\DCEP.AmbrosiaNodeAPIGenerated.csproj" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+    <_Parameter1>DCEP.Test</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+</Project>

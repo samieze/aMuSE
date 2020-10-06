@@ -1,0 +1,172 @@
+(iooclass
+OperatorPlacementProblem
+p0
+(dp1
+S'operator_inputs'
+p2
+(dp3
+S'AND(D, AND(H, G))'
+p4
+(lp5
+S'AND(D, G)'
+p6
+aS'H'
+p7
+asS'SEQ(H, G1, AND(E, A, G2))'
+p8
+(lp9
+S'A'
+p10
+aS'H'
+p11
+aS'E'
+p12
+aS'G'
+p13
+asS'SEQ(H, AND(C, D, G, F))'
+p14
+(lp15
+S'AND(D, AND(H, G))'
+p16
+aS'C'
+p17
+aS'F'
+p18
+asS'AND(D, G)'
+p19
+(lp20
+S'D'
+p21
+aS'G'
+p22
+asS'AND(H, SEQ(D, AND(G, A, F)))'
+p23
+(lp24
+S'AND(D, AND(H, G))'
+p25
+aS'A'
+p26
+ag18
+asS'AND(C, SEQ(D1, AND(F, D2, B)))'
+p27
+(lp28
+S'B'
+p29
+aS'C'
+p30
+aS'D'
+p31
+aS'F'
+p32
+asS'AND(D1, C1, SEQ(C2, AND(H, SEQ(G, D2, C3))))'
+p33
+(lp34
+S'AND(D, AND(H, G))'
+p35
+ag17
+assS'network'
+p36
+(dp37
+I0
+(lp38
+g26
+aS'D'
+p39
+aS'E'
+p40
+ag18
+aS'G'
+p41
+asI1
+(lp42
+S'B'
+p43
+ag17
+ag41
+asI2
+(lp44
+g26
+ag17
+ag40
+ag18
+ag41
+asI3
+(lp45
+g43
+ag39
+ag41
+asI4
+(lp46
+g26
+ag43
+ag39
+ag40
+ag7
+asI5
+(lp47
+g26
+ag43
+ag17
+ag18
+asI6
+(lp48
+g17
+ag40
+asI7
+(lp49
+g43
+ag39
+asI8
+(lp50
+g43
+ag17
+asI9
+(lp51
+g26
+ag39
+ag40
+ag18
+ag7
+asI10
+(lp52
+ssS'event_rates'
+p53
+(dp54
+g26
+I5
+sg17
+I10
+sg43
+I1000
+sg40
+I30
+sg39
+I20
+sg41
+I1
+sg18
+I200
+sg7
+I10000
+sS'AND(C, SEQ(D1, AND(F, D2, B)))'
+p55
+F17703.43569055234
+sS'AND(D, G)'
+p56
+F3.883130456926327
+sS'AND(H, SEQ(D, AND(G, A, F)))'
+p57
+F280.55918571621
+sS'SEQ(H, G1, AND(E, A, G2))'
+p58
+F666.4896402565167
+sS'AND(D, AND(H, G))'
+p59
+F178.73490287455672
+sS'AND(D1, C1, SEQ(C2, AND(H, SEQ(G, D2, C3))))'
+p60
+F0.8771091681302303
+sS'SEQ(H, AND(C, D, G, F))'
+p61
+F630.6097774691226
+ssb.
