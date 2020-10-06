@@ -9,7 +9,7 @@ The directory `aMuSE` contains the implementation of aMuSE/aMuSE* as well as the
 
 #### oOP
 
-The directory `oOP` contains the implementation of the optimal operator placement for a given network and query.
+The directory `oOP` contains the implementation for an optimal operator placement given a network and a query.
 
 #### DCEP-Ambrosia
 
