@@ -13,7 +13,7 @@ The directory `oOP` contains the implementation of the optimal operator placemen
 
 #### DCEP-Ambrosia
 
-The directory `DCEP-Ambrosia` contains the implementation of distributed complex event processing using Microsoft Ambrosia. The query processor can alternatively be started as a simulation instead of Ambrosia.
+The directory `DCEP-Ambrosia` contains the implementation of distributed complex event processing using Microsoft Ambrosia. The query processor can alternatively be started as a simulation which does not require to locally set up Ambrosia.
 
 #### Inputs
 
