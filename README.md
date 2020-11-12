@@ -1,4 +1,8 @@
 #  MuSE Graphs for Flexible Distribution of Event Stream Processing in Networks
+## Supplementary Material
+
+https://paste.c-net.org/DuctsThwarted
+
 ## Overview
 
 This repository contains the implementation of aMuSE/aMuSE*, oOP and DCEP-Ambrosia - a light-weight implementation for distributed complex event processing using Microsoft Ambrosia.
