@@ -5,7 +5,7 @@ This repository contains the implementation of aMuSE/aMuSE*, oOP and DCEP-Ambros
 
 #### aMuSE
 
-The directory `aMuSE` contains the implementation of aMuSE/aMuSE* as well as the scripts used to conduct the experiments presented in the paper.
+The directory `aMuSE` contains the implementation of aMuSE/aMuSE* and the scripts used to conduct the experiments presented in the paper.
 
 #### oOP
 
