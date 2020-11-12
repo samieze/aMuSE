@@ -1,6 +1,6 @@
 # Inputs
 
-## Synthetic Datasets
+## Synthetic Data
 
 - `exp_1.md` contains the network configuration and query workload for the first experiment presented in the paper which compares aMuSE and aMuSE*.
 - `exp_2_scal.md`contains the network configuration and query workload for the scalability experiment presentd in the paper.
