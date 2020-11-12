@@ -1,8 +1,8 @@
 #  MuSE Graphs for Flexible Distribution of Event Stream Processing in Networks
 ## Supplementary Material
 
-The supplementary material referenced in the authors response can be found here:
-https://paste.c-net.org/DuctsThwarted
+The [supplementary material](https://paste.c-net.org/DuctsThwarted) referenced in the authors response can be found [here](https://paste.c-net.org/DuctsThwarted).
+
 
 ## Overview
 
