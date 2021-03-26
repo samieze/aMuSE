@@ -5,7 +5,6 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Threading;
 using DCEP.Core;
-using DCEP.Core.Utils;
 
 namespace DCEP.Node
 {

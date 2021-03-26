@@ -1,6 +1,5 @@
 using System.Runtime.Serialization;
 using CommandLine;
-using DCEP.Node;
 
 namespace DCEP.Node
 {

@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using DCEP.AmbrosiaNodeAPI;
 using DCEP.Core;
 using DCEP.Core.Utils.DeepCloneExtension;
 

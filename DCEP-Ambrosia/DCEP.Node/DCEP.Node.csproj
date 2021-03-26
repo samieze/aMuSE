@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net46;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DCEP.Core\DCEP.Core.csproj" />
-    <ProjectReference Include="..\GeneratedSourceFiles\DCEP.AmbrosiaNodeAPIGenerated\latest\DCEP.AmbrosiaNodeAPIGenerated.csproj" />
+    <ProjectReference Include="..\DCEP.AmbrosiaNodeAPI\AmbrosiaNodeAPI.csproj" />
   </ItemGroup>
   
   <ItemGroup>

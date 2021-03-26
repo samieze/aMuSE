@@ -1,6 +1,4 @@
-using System;
 using System.Runtime.Serialization;
-using DCEP.AmbrosiaNodeAPI;
 using DCEP.Core;
 
 namespace DCEP.Node
